@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="Git Insight:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Git_Insight_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Git Insight.jar">
+        <element id="module-output" name="Git Insight" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="file-copy" path="C:/used API/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar" />
+        <element id="file-copy" path="C:/used API/org.eclipse.jgit-4.0.1.201506240215-r.jar" />
+        <element id="file-copy" path="C:/used API/slf4j-1.7.12/slf4j-1.7.12/slf4j-api-1.7.12.jar" />
+        <element id="file-copy" path="C:/used API/slf4j-1.7.12/slf4j-1.7.12/slf4j-log4j12-1.7.12.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>
