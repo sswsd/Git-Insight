@@ -29,9 +29,6 @@ public class MainForm
     private JTextField topJPanelTextFieldRepositoryPath;
     private JPanel TopJPanel;
     private JTextPane gitRepositoryTextPane;
-    //private JList list1;
-    //private JList list2;
-    private JList list3;
     private JPanel panelMid;
 
     private JTable panelMidTopScrollPaneTableCommitMsg;
@@ -45,8 +42,6 @@ public class MainForm
     private JMenuItem cut = new JMenuItem("Cut");
 
     LogTable lgt = null;
-
-    private int clickNumber;
 
     public static void main(String[] args)
     {

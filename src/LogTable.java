@@ -70,6 +70,7 @@ public class LogTable
             ve.add(el.getShortMessage());
             ve.add(el.getAuthorIdent().getName());
             ve.add(el.getCommitterIdent().getWhen().toString());
+            List temp = el.getFooterLines();
             Vector<String> tempve = (Vector)ve.clone();
             tempV.addElement(tempve);
 
